@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5d8c7; /* Color de fondo */
+    background-image: url('imagen-de-fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño de la pantalla */
+    background-position: center; /* Centrar la imagen */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89cc90;
+    color: #1a1818;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+.iniciar-sesion {
+    background-color: #20c425;
+    color: #f9f6f6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.imagen-fondo {
+    background-image: url('imagen-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070b07;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    background-color: #89c198;
+    color: #373434;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
